@@ -1,6 +1,6 @@
 Do the following steps to setup csr and crts.
 
-Download open ssl for windows from [here](http://gnuwin32.sourceforge.net/packages/openssl.htm).
+Download gitbash, if you are on windows. You shall be better off.
 
 ### To generate csr
 
