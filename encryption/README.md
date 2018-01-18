@@ -3,7 +3,8 @@ Do the following steps to setup csr and crts.
 Download open ssl for windows from [here](http://gnuwin32.sourceforge.net/packages/openssl.htm).
 
 ### To generate csr
-openssl req -new -newkey rsa:2048 -nodes -out localhost.csr -keyout private.key
+
+`openssl req -new -newkey rsa:2048 -nodes -out localhost.csr -keyout private.key`
 
 ### To generate crts
 #openssl rsa -in private.key -out new.cert.key
